@@ -14,7 +14,7 @@ public class Login
             System.out.println("Informe sua senha: ");
             String password = menu.nextLine();
             if(password.equals(correctPassword)) {
-                System.out.println("Logado com sucesso!");
+                System.out.println("Logado com sucesso! " + password);
                 exit = true;
             } else {
                 cont++;
